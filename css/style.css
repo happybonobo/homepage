@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: url(../images/icon.png);
+    background-size: cover;
+
+    -webkit-transition: background-position 0.3s;
+       -moz-transition: background-position 0.3s;
+        -ms-transition: background-position 0.3s;
+         -o-transition: background-position 0.3s;
+            transition: background-position 0.3s;
+
+    image-rendering:optimizeSpeed;             /* Legal fallback */
+    image-rendering:-moz-crisp-edges;          /* Firefox        */
+}
+
+p {
+    bottom: 5%;
+    color: white;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 80px;
+    font-weight: bold;
+    position: absolute;
+    right: 10%;
+    text-shadow: 1px 2px 7px rgba(0,0,0,0.3);
+}
